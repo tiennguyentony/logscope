@@ -1,0 +1,16 @@
+192.0.2.10 - - [02/Nov/2025:01:59:58 -0400] "GET / HTTP/1.1" 200 20311 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" 0.041
+192.0.2.10 - - [02/Nov/2025:01:00:03 -0500] "GET /products/101 HTTP/1.1" 200 31877 "https://shop.example.com/" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" 0.088
+2001:db8:85a3::8a2e:370:7334 - - [02/Nov/2025:01:05:12 -0500] "GET /search?q=boots HTTP/2.0" 200 18220 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1" 0.130
+::1 - - [02/Nov/2025:01:05:30 -0500] "GET /health HTTP/1.1" 200 15 "-" "kube-probe/1.31" 0.001
+198.51.100.7 - - [02/Nov/2025:01:06:00 -0500] "GET /api/v1/cart HTTP/1.1" 200 812 "-" "ShopApp/4.2.1 (iOS 18.0; \"iPhone15,2\") CFNetwork/1568 Darwin/24.0.0" 0.052
+198.51.100.7 - alice [02/Nov/2025:01:06:02 -0500] "POST /api/v1/orders HTTP/1.1" 201 1040 "-" "ShopApp/4.2.1 (iOS 18.0; \"iPhone15,2\") CFNetwork/1568 Darwin/24.0.0" 0.310
+203.0.113.50 - - [02/Nov/2025:11:36:10 +0530] "GET /static/app.js HTTP/1.1" 304 0 "https://shop.example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" 0.002
+203.0.113.50 - - [02/Nov/2025:11:36:11 +0530] "GET /static/css/site.css HTTP/1.1" 304 0 "https://shop.example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" 0.001
+203.0.113.51 - - [02/Nov/2025:06:07:40 +0000] "GET /blog/store-opening HTTP/1.1" 301 162 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" 0.003
+203.0.113.52 - - [02/Nov/2025:01:08:00 -0500] "GET /api/v1/orders/export?format=csv HTTP/1.1" 200 254001 "-" "curl/8.5.0" 4.812
+203.0.113.53 - - [02/Nov/2025:01:08:30 -0500] "POST /api/v1/orders HTTP/1.1" 502 157 "-" "python-requests/2.32.3" 30.001
+203.0.113.54 - - [02/Nov/2025:01:09:00 -0500] "GET /products/999 HTTP/1.1" 404 1200 "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+185.220.101.47 - - [02/Nov/2025:01:09:30 -0500] "\x16\x03\x01\x00\xF1\x01\x00\x00\xED\x03\x03" 400 166 "-" "-" 0.000
+185.220.101.47 - - [02/Nov/2025:01:09:31 -0500] "GET /static/../../../../../../etc/passwd HTTP/1.1" 400 162 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0 Safari/537.36" 0.000
+
+this line is not an access log line
